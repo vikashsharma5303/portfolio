@@ -4,7 +4,7 @@
             <h1 class="sm:text-6xl text-4xl relative">Hi<span class="absolute animate-wiggle">👋</span>
                 <span class="relative sm:left-[76px] left-[48px]">, my</span>
                 <br />
-                name is <span class="font-bold font-sans text-rose-500">Om prakash. </span>
+                name is <span class="font-bold font-sans text-rose-500">Vikash Kumar Sharma. </span>
             </h1>
             <p class="text-3xl mt-3"><span class="text-teal-600 font-medium">Front End Developer!</span></p>
             <p class="pt-4 sm:text-xl text-lg font-arial">A passionate <span class="font-bold ">Front End Developer</span> with a diverse skill set, committed to crafting engaging and practical web applications.</p>
