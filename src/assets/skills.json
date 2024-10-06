@@ -1,26 +1,26 @@
 [
     {
         "title": "Programming Languages",
-        "course": "C, C++, Java, JavaScript, TypeScript"
+        "course": "C, C++, Java, JavaScript"
     },
     {
-        "title": "Frontend Development",
-        "course": "HTML, CSS, Tailwind CSS, jQuery, React.js, Material UI, Vue.js, Nuxt.js"
+        "title": "QA Automation",
+        "course": "Selenium, Cypress, RestAssert, Appium, Playwrite"
     },
     {
-        "title": "Backend Development",
-        "course": "Basic Node.js, Express.js"
+        "title": "QA Manual",
+        "course": "SDLC, SDTC, Functional Testing, API Testing, DataBase Testing"
     },
     {
         "title": "Database",
-        "course": "Basic Oracle SQL, Basic MongoDB"
+        "course": "Basic MySQL, Basic Oracle SQL, Basic MongoDB"
     },
     {
-        "title": "Cloud",
-        "course": "Firebase real-time database, Firebase Authentication, and FireStore etc."
+        "title": "Tools",
+        "course": "Jira, Assembal, Bugzilla, Postman, HeidiSQL"
     },
     {
         "title": "Others",
-        "course": "Git & Github, Basic Docker"
+        "course": "Git & Github, Basic Docker, Basic Jenkins"
     }
 ]
