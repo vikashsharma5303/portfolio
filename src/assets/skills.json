@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Programming Languages",
+        "course": "C, C++, Java, JavaScript, TypeScript"
+    },
+    {
+        "title": "Frontend Development",
+        "course": "HTML, CSS, Tailwind CSS, jQuery, React.js, Material UI, Vue.js, Nuxt.js"
+    },
+    {
+        "title": "Backend Development",
+        "course": "Basic Node.js, Express.js"
+    },
+    {
+        "title": "Database",
+        "course": "Basic Oracle SQL, Basic MongoDB"
+    },
+    {
+        "title": "Cloud",
+        "course": "Firebase real-time database, Firebase Authentication, and FireStore etc."
+    },
+    {
+        "title": "Others",
+        "course": "Git & Github, Basic Docker"
+    }
+]
