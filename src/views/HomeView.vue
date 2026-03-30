@@ -1,18 +1,20 @@
 <template>
     <PageView>
-        <div class="text-left">
-            <h1 class="sm:text-6xl text-4xl relative">Hi<span class="absolute animate-wiggle">👋</span>
+       <div class="w-full h-full flex flex-col-reverse overflow-auto md:flex-row md:items-center items-baseline p-2 gap-y-8 ">
+        <div class="text-left md:w-[70%] w-full">
+            <h1 class="sm:text-6xl text-4xl relative ">Hi<span class="absolute animate-wiggle">👋</span>
                 <span class="relative sm:left-[76px] left-[48px]">, my</span>
                 <br />
                 name is <span class="font-bold font-sans text-rose-500">Vikash Kumar Sharma. </span>
             </h1>
-            <p class="text-3xl mt-3"><span class="text-teal-600 font-medium">Front End Developer!</span></p>
-            <p class="pt-4 sm:text-xl text-lg font-arial">A passionate <span class="font-bold ">Front End Developer</span> with a diverse skill set, committed to crafting engaging and practical web applications.</p>
+            <p class="text-3xl mt-3"><span class="text-teal-600 font-medium">Software Test Engineer!</span></p>
+            <p class="pt-4 sm:text-xl text-lg font-arial ">A passionate <span class="font-bold ">Software Test Engineer</span> with 5+ years of experience specializing in end-to-end test automation for web, mobile, and API platforms. Demonstrated success in improving software reliability, reducing regression time, and mentoring team members in Agile environments.</p>
+            
             <div class="mt-8 flex">
                 <div class='mr-3' v-for="navigation in navigationLinks">
                     <RouterLink :to="{ name: navigation.name }">
                         <button
-                            :class="['dark:hover:text-gray-300 focus:outline-0 w-28 p-3 dark:bg-[#2f3038] dark:hover:opacity-75 shadow-md', navigation.color]">
+                            :class="['dark:hover:text-gray-300 focus:outline-0 md:w-28 w-24 p-3 dark:bg-[#2f3038] dark:hover:opacity-75 shadow-md', navigation.color]">
                             {{ navigation.label }}
                         </button>
                     </RouterLink>
@@ -30,7 +32,7 @@
         <div class="relative">
             <figure
                 class="rounded-full shadow-xl hover:shadow-md transition-all delay-200 ease-in-out rounded-full1 bg-gray-300 dark:bg-[#424450] dark:hover:bg-[#424450] p-2 hover:bg-gray-200 cursor-pointer">
-                <img class="w-72 h-72 sm:w-80 sm:h-80 rounded-full" src="../assets/om.jpg" alt="icon">
+                <img class="w-72 h-72 sm:w-80 sm:h-80 rounded-full" src="../assets/vikash.jpg" alt="icon">
             </figure>
             <div
                 class="absolute top-10 left-4 pr-2 justify-center border-4 border-pink-500 dark:border-[#63646e] p-1 rounded-full">
@@ -42,6 +44,7 @@
                 </button>
             </div>
         </div>
+       </div>
     </PageView>
 </template>
 
@@ -51,15 +54,15 @@ import { ref, onUnmounted, onMounted } from 'vue';
 
 const socialLinks = [{
     name: 'Github',
-    url: 'http://github.com/kom50',
+    url: 'https://github.com/vikashsharma5303',
     img_url: 'github.png'
 },{
     name: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/om-prakash-sah',
+    url: 'https://www.linkedin.com/in/vikashsharma5303',
     img_url: 'linkedinD.png'
 },{
     name: 'Email',
-    url: 'mailto:omprakashkartik82280@gmail.com',
+    url: 'mailto:vikash.sharma.qa@gmail.com',
     img_url: 'email.png'
 }]
 
@@ -80,8 +83,8 @@ function getUrl(url: string) {
     return new URL(`../assets/${url}`, import.meta.url).href;
 }
 
-const text = ref('Front End Developer')
-const title = ref('Front End Developer')
+const text = ref('Software Test Engineer')
+const title = ref('Software Test Engineer')
 
 // Animate text
 
@@ -102,7 +105,7 @@ onUnmounted(() => {
 const downloadURL = ref('')
 
 onMounted(() => {
-    fetch(new URL('../assets/om_prakash_cv.pdf', import.meta.url).href).then(res => {
+    fetch(new URL('../assets/vikash_sharma_cv.pdf', import.meta.url).href).then(res => {
         return res.blob()
     }).then((data) => {
         downloadURL.value = URL.createObjectURL(data)
@@ -115,7 +118,7 @@ onMounted(() => {
 function download() {
     const anchor = document.createElement('a')
     anchor.href = downloadURL.value
-    // anchor.download = 'om.pdf'
+    anchor.download = 'vikash_sharma.pdf'
     anchor.click()
 }
 

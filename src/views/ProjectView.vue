@@ -68,7 +68,7 @@ import Card from '../components/Card.vue'
 import project from '../assets/projects.json'
 import { ref, computed } from 'vue';
 
-const languages = ["HTML", "React JS", "Vue JS", "Java"]
+const languages = ["Selenium", "Cypress", "Playwright", "API Testing", "Java"]
 
 // selected languages
 const selectedLangs = ref<string[]>([...languages])

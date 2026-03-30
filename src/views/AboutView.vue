@@ -6,7 +6,7 @@
                     <div class="p-4">
                         <figure
                             class="shadow-xl hover:shadow-md transition-all delay-200 ease-in-out rounded-full bg-gray-300 dark:bg-[#424450] dark:hover:bg-[#424450] p-2 hover:bg-gray-200 cursor-pointer">
-                            <img class="w-64 h-64 sm:w-72 sm:h-72  rounded-full" src="../assets/om.jpg" alt="icon">
+                            <img class="w-64 h-64 sm:w-72 sm:h-72  rounded-full" src="../assets/vikash.jpg" alt="icon">
                         </figure>
                     </div>
                     <div class="mt-4 text-left pl-1 w-96 sm:w-3/4 bg-gray-400 dark:bg-[#424450] text-lg shadow-md rounded-md">
@@ -14,11 +14,11 @@
                         <div
                             class="ml-1 pl-4 bg-white dark:text-gray-300 dark:sm:bg-[#2c2e35] dark:bg-[#2c2e35] p-2">
                             <p class="first-letter:text-4xl first-letter:text-rose-600 dark:first-letter:text-white py-3">
-                                I'm a Computer Science student from Bihar, currently studying for my MCA at Chandigarh University since 2023.
-                                 My interest in computers started back in 2017 when I began my BCA. 
-                                 That's where I first learned about computer concepts and different programming languages. 
-                                 I started with C and slowly learned more, eventually discovering my love for JavaScript.
-                                  React.js and Vue.js has become my favorite library/framework for web development.
+                                I hold an MCA from Chandigarh University and a BCA from Bhimrao Ambedkar Bihar University. 
+                                My professional journey ranges from being a Test Analyst to a Software Test Engineer, 
+                                where I've spent over 5 years mastering end-to-end test automation. Along the way, 
+                                I've developed a deep proficiency in tools like Selenium, Cypress, and Playwright 
+                                for ensuring rock-solid web, mobile, and API applications.
                             </p>
                         </div>
                     </div>
@@ -40,7 +40,7 @@
                             <span class="absolute animate-wiggle">👉</span>
                             <span class="ml-8"> You can contact me at
                                 <span class="text-blue-800 text-xl">
-                                    <a href="mailto:omprakashkartik82280@gmail.com" target="_blank">omprakashkartik82280@gmail.com</a>
+                                    <a href="mailto:vikash.sharma.qa@gmail.com" target="_blank">vikash.sharma.qa@gmail.com</a>
                                 </span>
                             </span>
                         </p>
@@ -55,10 +55,10 @@
 <script setup lang="ts">
 
 const list = [
-    'I am a Front End Developer from India 🇮🇳.',
-    'I’m working as a Front End Developer for building web applications.',
-    'Exploring coding problems.',
-    'I’m currently learning MERN and MEVN stack.',
+    'I am a Software Test Engineer from India 🇮🇳.',
+    'Specializing in end-to-end test automation for web, mobile, and API platforms.',
+    'Working with CI/CD integrations using GitHub Actions & Docker.',
+    'Expertise in modern frameworks like Cypress, Playwright, and Selenium.',
 ]
 
 </script>

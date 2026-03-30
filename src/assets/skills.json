@@ -1,26 +1,30 @@
 [
     {
-        "title": "Programming Languages",
-        "course": "C, C++, Java, JavaScript"
+        "title": "Automation Tools",
+        "course": "Selenium WebDriver, Cypress, Playwright, Rest Assured, K6, Jenkins, Postman"
     },
     {
-        "title": "QA Automation",
-        "course": "Selenium, Cypress, RestAssert, Appium, Playwrite"
+        "title": "Programming Language",
+        "course": "Java, JavaScript/TypeScript"
     },
     {
-        "title": "QA Manual",
-        "course": "SDLC, SDTC, Functional Testing, API Testing, DataBase Testing"
+        "title": "Test Framework",
+        "course": "TestNG, Mocha, Cucumber (BDD)"
     },
     {
-        "title": "Database",
-        "course": "Basic MySQL, Basic Oracle SQL, Basic MongoDB"
+        "title": "Testing Types",
+        "course": "Functional, Regression, Integration, System, UAT, API Testing, Mobile Testing"
     },
     {
-        "title": "Tools",
-        "course": "Jira, Assembal, Bugzilla, Postman, HeidiSQL"
+        "title": "CI/CD & DevOps",
+        "course": "Jenkins, GitHub Actions, Docker"
     },
     {
-        "title": "Others",
-        "course": "Git & Github, Basic Docker, Basic Jenkins"
+        "title": "Database Testing",
+        "course": "SQL, MySQL, MongoDB"
+    },
+    {
+        "title": "Test Management",
+        "course": "JIRA, BugZila"
     }
 ]
